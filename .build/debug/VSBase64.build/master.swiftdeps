@@ -1,6 +1,0 @@
-version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "e9541bf88b02c614c2b6d935c435ef93"
-build_time: [539188644, 986432000]
-inputs:
-  "/Users/vinicius.souza/swift/base64/Sources/Base64.swift": [539188601, 0]
-  "/Users/vinicius.souza/swift/base64/Sources/main.swift": [539188508, 0]
