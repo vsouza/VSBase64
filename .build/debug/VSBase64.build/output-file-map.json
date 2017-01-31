@@ -2,7 +2,13 @@
   "": {
     "swift-dependencies": "/Users/vinicius.souza/swift/base64/.build/debug/VSBase64.build/master.swiftdeps"
   },
-  "/Users/vinicius.souza/swift/base64/main.swift": {
+  "/Users/vinicius.souza/swift/base64/Sources/Base64.swift": {
+    "dependencies": "/Users/vinicius.souza/swift/base64/.build/debug/VSBase64.build/Base64.d",
+    "object": "/Users/vinicius.souza/swift/base64/.build/debug/VSBase64.build/Base64.swift.o",
+    "swiftmodule": "/Users/vinicius.souza/swift/base64/.build/debug/VSBase64.build/Base64~partial.swiftmodule",
+    "swift-dependencies": "/Users/vinicius.souza/swift/base64/.build/debug/VSBase64.build/Base64.swiftdeps"
+  },
+  "/Users/vinicius.souza/swift/base64/Sources/main.swift": {
     "dependencies": "/Users/vinicius.souza/swift/base64/.build/debug/VSBase64.build/main.d",
     "object": "/Users/vinicius.souza/swift/base64/.build/debug/VSBase64.build/main.swift.o",
     "swiftmodule": "/Users/vinicius.souza/swift/base64/.build/debug/VSBase64.build/main~partial.swiftmodule",
