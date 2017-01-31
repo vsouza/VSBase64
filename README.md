@@ -57,5 +57,5 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
-[travis-image]: https://img.shields.io/travis/vsouza/vsbase64/master.svg
-[travis-url]: https://travis-ci.org/vsouza/vsbase64
+[travis-image]: https://travis-ci.org/vsouza/VSBase64.svg?branch=master
+[travis-url]: https://travis-ci.org/vsouza/VSBase64
