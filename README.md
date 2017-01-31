@@ -17,7 +17,7 @@ import PackageDescription
 
 let package = Package(
     dependencies: [
-        .Package(url: "https://github.com/vsouza/base64.git", majorVersion: 0, minor: 0)
+        .Package(url: "https://github.com/vsouza/vsbase64.git", majorVersion: 0, minor: 0)
     ]
 )
 ```
@@ -26,7 +26,7 @@ let package = Package(
 
 
 ```swift
-import Base64
+import VSBase64
 let str = "foo"
 let encodedStr = base64.encode(str)
 print(encodedStr) // "Zm9v"
@@ -51,11 +51,11 @@ Vinicius Souza – [@iamvsouza](https://twitter.com/iamvsouza) – hi@vsouza.com
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/vsouza/swift-base64](https://github.com/vsouza/swift-base64)
+[https://github.com/vsouza/vsbase64](https://github.com/vsouza/vsbase64)
 
 [swift-image]:https://img.shields.io/badge/swift-3.0-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
-[travis-image]: https://img.shields.io/travis/vsouza/swift-base64/master.svg
-[travis-url]: https://travis-ci.org/vsouza/swift-base64
+[travis-image]: https://img.shields.io/travis/vsouza/vsbase64/master.svg
+[travis-url]: https://travis-ci.org/vsouza/vsbase64
