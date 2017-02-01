@@ -1,10 +1,7 @@
 language: generic
 sudo: required
 dist: trusty
-env:
-    - SWIFT_VERSION=swift-3.0.2
 install:
-    - mkdir swift
-    - curl https://swift.org/builds/$SWIFT_VERSION-release/ubuntu1404/$SWIFT_VERSION-RELEASE/$SWIFT_VERSION-RELEASE-ubuntu14.04.tar.gz -s | tar xz -C swift &> /dev/null
+    - curl -L https://github.com/IBM-Swift/Package-Builder/blob/master/linux/install_swift_binaries.sh | sh
 script:
-    - env PATH=$(pwd)/swift/$SWIFT_VERSION-release-ubuntu14.04/usr/bin:$PATH swift build
+    - swift test
