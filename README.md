@@ -28,10 +28,10 @@ let package = Package(
 ```swift
 import VSBase64
 let str = "foo"
-let encodedStr = base64.encode(str)
+let encodedStr = VSBase64.encode(str)
 print(encodedStr) // "Zm9v"
 
-let decoded = base64.decode(encodedStr)
+let decoded = VSBase64.decode(encodedStr)
 print(decoded) // "foo"
 ```
 
