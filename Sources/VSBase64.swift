@@ -1,6 +1,6 @@
 import Foundation
 
-class Base64 {
+class VSBase64 {
 
     static func encode(str: String) -> String? {
         guard let data = str.data(using: .utf8) else {
