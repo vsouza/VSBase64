@@ -42,6 +42,8 @@ You need to install Swift 3.0 (or later)
 
 ## Release History
 
+* 0.0.2
+    * CI Integration
 * 0.0.1
     * Encode and Decode strings 
 
